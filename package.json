@@ -1,0 +1,11 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node ./src/index.js"
+  },
+	"type": "module",
+  "private": true
+}

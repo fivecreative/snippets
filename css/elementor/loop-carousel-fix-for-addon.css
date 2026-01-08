@@ -1,0 +1,8 @@
+/**
+ * title: Loop Carousel Widget Fix
+ * description: Fixes using the loop carousel widget when using Elementor with the internal FIVE Elementor Repeater and Dynamic tags addon
+ */
+
+.elementor-posts--skin-flexible .elementor-loop-container.swiper-horizontal {
+	max-width: calc(100vw);
+}

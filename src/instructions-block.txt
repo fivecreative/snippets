@@ -1,10 +1,3 @@
-# Snippet index
-## CSS
-### Elementor
-[**Loop Carousel Widget Fix**](css/elementor/loop-carousel-fix-for-addon.css) - Fixes using the loop carousel widget when using Elementor with the internal FIVE Elementor Repeater and Dynamic tags addon
-## PHP
-### Elementor
-[**Force CSS enqueue of Elementor template and loop items**](php/elementor/fix-css-enqueuing-elementor.php) - When using the template widget, Dynamic.ooo Repeater, or the FIVE internal Repeater Add on, use this snippet to fix issues with widgets styling not being properly applied to elements due to CSS files not being printed on the markup. The snippet ensures that the style is only printed once per page
 # Adding a new snippet
 
 ## 1.a Clone repo and install dependencies
