@@ -5,6 +5,8 @@
 ## PHP
 ### Elementor
 [**Force CSS enqueue of Elementor template and loop items**](php/elementor/fix-css-enqueuing-elementor.php) - When using the template widget, Dynamic.ooo Repeater, or the FIVE internal Repeater Add on, use this snippet to fix issues with widgets styling not being properly applied to elements due to CSS files not being printed on the markup. The snippet ensures that the style is only printed once per page
+### Wordpress
+[**Media Library inline editable columns for Alt, Title, Description (List view)**](php/wordpress/inline-editable-columns-for-media-library.php) - Images and SVG only - saves on blur when clicking to another field. Works in wp-admin -> Media -> List view.
 # Adding a new snippet
 
 ## 1.a Clone repo and install dependencies
