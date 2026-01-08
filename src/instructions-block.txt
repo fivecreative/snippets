@@ -51,7 +51,7 @@ Your snippet file must include the following at the beginning of the file. for P
 2. Run `yarn build` or `npm run build` depending on your package manager. This script regenerates the snippet index and automatically increases the version of the repository.
 3. Push the updates snipper repo to github. You may need to add your required SSH key to your agent to ensure you have the required permissions. See https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 ```bash
-git add . all
+git add . --all
 git commit -m "Your commit comment here"
 git push origin
 ```
