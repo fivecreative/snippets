@@ -6,7 +6,8 @@ const ignoreFolders = [
 	'src',
 	'.idea',
 	'.git',
-	'.DS_Store'
+	'.DS_Store',
+	'.empty'
 ];
 
 const capitalizeFirstLetter = function (val) {
